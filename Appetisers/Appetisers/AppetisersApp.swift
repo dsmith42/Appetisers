@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct AppetisersApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      AppetiserTabView()
     }
+  }
 }
