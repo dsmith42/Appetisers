@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AppetiserListView: View {
   
-  @StateObject var viewModel = AppertiserListViewModel()
+  @StateObject var viewModel = AppetiserListViewModel()
   
   var body: some View {
     NavigationView {

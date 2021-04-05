@@ -1,5 +1,5 @@
 //
-//  AppertiserListViewModel.swift
+//  AppetiserListViewModel.swift
 //  Appetisers
 //
 //  Created by Dan Smith on 05/04/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class AppertiserListViewModel: ObservableObject {
+final class AppetiserListViewModel: ObservableObject {
   
   @Published var appetisers: [Appetiser] = []
   
