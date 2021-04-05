@@ -14,6 +14,8 @@
 		418CE0C3261B7D2D00796C62 /* AppetiserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CE0C2261B7D2D00796C62 /* AppetiserListView.swift */; };
 		418CE0C6261B7DD300796C62 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CE0C5261B7DD300796C62 /* AccountView.swift */; };
 		418CE0C9261B7DE100796C62 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CE0C8261B7DE100796C62 /* OrderView.swift */; };
+		418CE0CC261B8ABC00796C62 /* Appetiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CE0CB261B8ABC00796C62 /* Appetiser.swift */; };
+		418CE0CF261B91B000796C62 /* AppetiserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CE0CE261B91B000796C62 /* AppetiserListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		418CE0C2261B7D2D00796C62 /* AppetiserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetiserListView.swift; sourceTree = "<group>"; };
 		418CE0C5261B7DD300796C62 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		418CE0C8261B7DE100796C62 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		418CE0CB261B8ABC00796C62 /* Appetiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetiser.swift; sourceTree = "<group>"; };
+		418CE0CE261B91B000796C62 /* AppetiserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetiserListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				418CE0B1261B7B9600796C62 /* AppetisersApp.swift */,
+				418CE0CB261B8ABC00796C62 /* Appetiser.swift */,
 				418CE0B3261B7B9600796C62 /* AppetiserTabView.swift */,
 				418CE0C2261B7D2D00796C62 /* AppetiserListView.swift */,
 				418CE0C5261B7DD300796C62 /* AccountView.swift */,
@@ -66,6 +71,7 @@
 				418CE0B5261B7B9900796C62 /* Assets.xcassets */,
 				418CE0BA261B7B9900796C62 /* Info.plist */,
 				418CE0B7261B7B9900796C62 /* Preview Content */,
+				418CE0CE261B91B000796C62 /* AppetiserListCell.swift */,
 			);
 			path = Appetisers;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 				418CE0C3261B7D2D00796C62 /* AppetiserListView.swift in Sources */,
 				418CE0B4261B7B9600796C62 /* AppetiserTabView.swift in Sources */,
 				418CE0B2261B7B9600796C62 /* AppetisersApp.swift in Sources */,
+				418CE0CF261B91B000796C62 /* AppetiserListCell.swift in Sources */,
 				418CE0C9261B7DE100796C62 /* OrderView.swift in Sources */,
+				418CE0CC261B8ABC00796C62 /* Appetiser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
